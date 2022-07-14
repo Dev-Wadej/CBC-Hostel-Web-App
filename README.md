@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# CBC-Hostel-Web-App
+### Project Purpose
+This project was made to design an application which enables easy handling of data regarding the hostels. The main objectives of this application is to maintain and manage the hostels information easily, to avoid complexity, to reduce time and human effort in data processing and maintaining the admin and students' information. This project deals with the problems of managing hostels and avoid the problems which occur when carried manually.
+| **Contributors** | **Github Link**|
+| ----------- | ----------- |
+| Akinosi Eniola | https://github.com/AkinosiEniola |
+| Oketola Samuel | https://github.com/dprince001 |
+| Adeniyi Joshua | https://github.com/Jplayskeys |
+| Adegoke Fuad | https://github.com/ALIPHATICHYD |
+| Chi-ife Ileka | https://github.com/chi-ife |
+| Hamjad Idris | https://github.com/Hamjadidris |
+| Ojekunle Micheal | https://github.com/michojekunle |
+| Benedict Nwoko | https://github.com/BenedictNwoko |
+| Ajiboye Fiyin | http://github.com/FiyinfoluwaAjiboye |
+| Janet Olukotun | https://github.com/Techkira |
+| Alvin | http://github.com/Vinsax19 |
+| Hollas | https://github.com/HollasII |
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Basic Structure
+* Landing Page
+* Company's Page
+* Hostel's Page
+* User login and signup page
+* User dashboard page
+* Appointment page
+* Terms and conditions page
 
-## Available Scripts
+### Sections Maintained
+* Header(navigation and logo)
 
-In the project directory, you can run:
+### Landing Page
+The landing page contains the basic details of the company. These includes:
+* About
+* Hostels
+* Admin
+* Activities
+* Contact
 
-### `npm start`
+### User login and signup page
+This is the page where the user does the basic documentation of herself. It contains a form which allow users to input their details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##### The table below shows the form sections and input that are in the section
+| Section | Inputs |
+| ----------- | ----------- |
+| **Login page** | User Email |
+|  | User Password |
+| **Signup Page** | User Full Name |
+| | User Email |
+| | User Number |
+| | User Hostel |
+| | User Gender |
+| | User Marital Status |
+| | User Age |
+| | User Occupation |
+| | User Disabilities |
+| | User Next Of Kin |
+| | Next of kin's Email |
+| | Next of kin's Number |
+| | Next of kin's Address |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Hostels Page
+The hostels page showcases hostel and bedspaces available for accomdation. It consists of quality images of hostels, address of each hostel and prices of the hostels available.
 
-### `npm test`
+### User dashboard page
+This is the page that contains the graphical report of various data
+relevant to the user. It has five sections, namely:
+* Biodata
+* Payment
+* Activities
+* Reviews
+* Terms and conditions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Terms and Conditions Page
+This page clearly states the terms and conditions also with the rules and regulation guiding the hostels. It also talks about the refund policy of the hostels. 
