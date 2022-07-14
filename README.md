@@ -22,7 +22,7 @@ This project was made to design an application which enables easy handling of da
 * User login and signup page
 * User dashboard page
 * Appointment page
-* Terms and coditions page
+* Terms and conditions page
 
 ### Sections Maintained
 * Header(navigation and logo)
@@ -38,7 +38,7 @@ The landing page contains the basic details of the company. These includes:
 ### User login and signup page
 This is the page where the user does the basic documentation of herself. It contains a form which allow users to input their details.
 
-##### The table below shows the form sections and input that are in the sections
+##### The table below shows the form sections and input that are in the section
 | Section | Inputs |
 | ----------- | ----------- |
 | **Login page** | User Email |
