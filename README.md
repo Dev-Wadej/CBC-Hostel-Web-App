@@ -29,15 +29,23 @@ This page gives more insight about the company and it's general quality assessme
 ### User login and signup page
 This is the page where the user does the basic documentation of him/herself. It contains a form which allow users to input their details.
 #### The table below shows the form sections and input that are in the sections
-| Syntax | Description |
-| ----------- | ----------- |
 | Section | Inputs |
-| Paragraph | Text |
-
-| Syntax | Description |
 | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Login page | User Email |
+|  | User Password |
+| Signup Page | User Full Name |
+| | User Email |
+| | User Number |
+| | User Hostel |
+| | User Gender |
+| | User Marital Status |
+| | User Age |
+| | User Occupation |
+| | User Disabilities |
+| | User Next Of Kin |
+| | Next of kin's Email |
+| | Next of kin's Number |
+| | Next of kin's Address |
 
 ### User dashboard page
 ### Appointment page
