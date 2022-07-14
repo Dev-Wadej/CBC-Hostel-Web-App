@@ -23,9 +23,22 @@ The landing page contains the basic details of the company. These includes:
 * Activities
 * Contact
 
-### Company's Page
+<!-- ### Company's Page
+This page gives more insight about the company and it's general quality assessment -->
 ### Hostel's Page
 ### User login and signup page
+This is the page where the user does the basic documentation of him/herself. It contains a form which allow users to input their details.
+#### The table below shows the form sections and input that are in the sections
+| Syntax | Description |
+| ----------- | ----------- |
+| Section | Inputs |
+| Paragraph | Text |
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
 ### User dashboard page
 ### Appointment page
 ### Terms and Conditions Page
