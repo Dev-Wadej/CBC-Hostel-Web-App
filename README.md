@@ -1,13 +1,18 @@
 # CBC-Hostel-Web-App
 ### Project Purpose
 This project was made to design an application which enables easy handling of data regarding the hostels. The main objectives of this application is to maintain and manage the hostels information easily, to avoid complexity, to reduce time and human effort in data processing and maintaining the admin and students' information. This project deals with the problems of managing a hostel and avoids the problems which occur when carried manually.
-### Contributors
-* Akinosi Eniola
-* Oketola Samuel
-* Adeniyi Joshua
-* Adegoke Fuad
-* Chi-ife Ileka
-* Hamjad Idris
+| **Contributors** | **Github Link**|
+| Akinosi Eniola | [title](https://github.com/AkinosiEniola) |
+| Oketola Samuel | [title](https://www.example.com) |
+| Adeniyi Joshua | [title](https://www.example.com) |
+| Adegoke Fuad | [title](https://www.example.com) |
+| Chi-ife Ileka | [title](https://www.example.com) |
+| Hamjad Idris | [title](https://www.example.com) |
+| Ojekunle Micheal | [title](https://www.example.com) |
+| Benedict Nwoko | [title](https://www.example.com) |
+| Ajiboye Fiyin | [title](https://www.example.com) |
+| Alvin | [title](https://www.example.com) |
+| Hollas | [title](https://www.example.com) |
 
 ### Basic Structure
 * Landing Page
