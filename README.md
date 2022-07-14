@@ -1,7 +1,25 @@
 # CBC-Hostel-Web-App
 ### Project Purpose
-Catalyst Business Consult popularly known as “CBC” is owned by Mr Hammed Olawale. The company is focused on adding value and bringing imaginations to live ,thats why we have diffrent aspect  of concentration, asides from having condisive  female hostels in diffrent locations in lagos, we are taking tech into secondary schols ,providing oppoutuities for anyone to break into tech, airing the best enginieers and programmers and even ui/ux product designers at any of our businness centers .Our centers are located in a secured environment and condusive in terms of ptoviding free wifi and computers for easy learning.
+This project was made 
 ### Contributors
 * Akinosi Eniola
 * Oketola Samuel
 ### Basic Structure
+1. Landing Page
+2. Company's Page
+3. Hostel's Page
+4. User login and signup page
+5. User dashboard
+6. Appointment page
+7. Terms and coditions page
+### Sections Maintained
+* Header(navigation and logo)
+
+### Landing Page#
+The landing page contains the basic details of the company. These includes:
+* About
+* Hostels
+* Admin
+* Activities
+* Contact
+
