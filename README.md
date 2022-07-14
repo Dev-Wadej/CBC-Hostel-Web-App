@@ -4,12 +4,12 @@ This project was made to design an application which enables easy handling of da
 | **Contributors** | **Github Link**|
 | ----------- | ----------- |
 | Akinosi Eniola | https://github.com/AkinosiEniola |
-| Oketola Samuel | https://https://github.com/dprince001 |
-| Adeniyi Joshua | https://https://github.com/Jplayskeys |
-| Adegoke Fuad | https://https://github.com/ALIPHATICHYD |
-| Chi-ife Ileka | https://https://github.com/chi-ife |
+| Oketola Samuel | https://github.com/dprince001 |
+| Adeniyi Joshua | https://github.com/Jplayskeys |
+| Adegoke Fuad | https://github.com/ALIPHATICHYD |
+| Chi-ife Ileka | https://github.com/chi-ife |
 | Hamjad Idris | https://www.example.com |
-| Ojekunle Micheal | https://https://github.com/michojekunle |
+| Ojekunle Micheal | https://github.com/michojekunle |
 | Benedict Nwoko | https://github.com/BenedictNwoko |
 | Ajiboye Fiyin | http://github.com/FiyinfoluwaAjiboye |
 | Alvin | http://github.com/Vinsax19 |
