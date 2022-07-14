@@ -2,7 +2,8 @@
 ### Project Purpose
 This project was made to design an application which enables easy handling of data regarding the hostels. The main objectives of this application is to maintain and manage the hostels information easily, to avoid complexity, to reduce time and human effort in data processing and maintaining the admin and students' information. This project deals with the problems of managing a hostel and avoids the problems which occur when carried manually.
 | **Contributors** | **Github Link**|
-| Akinosi Eniola | [title](https://github.com/AkinosiEniola) |
+| ----------- | ----------- |
+| Akinosi Eniola | (https://github.com/AkinosiEniola) |
 | Oketola Samuel | [title](https://www.example.com) |
 | Adeniyi Joshua | [title](https://www.example.com) |
 | Adegoke Fuad | [title](https://www.example.com) |
