@@ -4,6 +4,10 @@ This project was made to design an application which enables easy handling of da
 ### Contributors
 * Akinosi Eniola
 * Oketola Samuel
+* Adeniyi Joshua
+* Adegoke Fuad
+* Chi-ife Ileka
+* Hamjad Idris
 
 ### Basic Structure
 * Landing Page
