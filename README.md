@@ -3,17 +3,17 @@
 This project was made to design an application which enables easy handling of data regarding the hostels. The main objectives of this application is to maintain and manage the hostels information easily, to avoid complexity, to reduce time and human effort in data processing and maintaining the admin and students' information. This project deals with the problems of managing a hostel and avoids the problems which occur when carried manually.
 | **Contributors** | **Github Link**|
 | ----------- | ----------- |
-| Akinosi Eniola | (https://github.com/AkinosiEniola) |
-| Oketola Samuel | [title](https://www.example.com) |
-| Adeniyi Joshua | [title](https://www.example.com) |
-| Adegoke Fuad | [title](https://www.example.com) |
-| Chi-ife Ileka | [title](https://www.example.com) |
-| Hamjad Idris | [title](https://www.example.com) |
-| Ojekunle Micheal | [title](https://www.example.com) |
-| Benedict Nwoko | [title](https://www.example.com) |
-| Ajiboye Fiyin | [title](https://www.example.com) |
-| Alvin | [title](https://www.example.com) |
-| Hollas | [title](https://www.example.com) |
+| Akinosi Eniola | https://github.com/AkinosiEniola |
+| Oketola Samuel | https://https://github.com/dprince001 |
+| Adeniyi Joshua | https://https://github.com/Jplayskeys |
+| Adegoke Fuad | https://https://github.com/ALIPHATICHYD |
+| Chi-ife Ileka | https://https://github.com/chi-ife |
+| Hamjad Idris | https://www.example.com |
+| Ojekunle Micheal | https://https://github.com/michojekunle |
+| Benedict Nwoko | https://github.com/BenedictNwoko |
+| Ajiboye Fiyin | http://github.com/FiyinfoluwaAjiboye |
+| Alvin | http://github.com/Vinsax19 |
+| Hollas | https://github.com/HollasII |
 
 ### Basic Structure
 * Landing Page
