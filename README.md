@@ -31,7 +31,7 @@ This open-source project is an application which enables easy handling of data r
 
 To Contribute here(Version control) Step 1: Click on Fork at the top right corner Step 2: Clone your forked repository Step 3: cd into the cloned folder | GrowersBrains Step 4: git remote add upstream https://github.com/Jplayskeys/CBC-Hostel-Web-App Step 5: git pull upstream "branch" Step 6: Check out to the task/feature branch | git checkout -b <NAME_OF_THE_TASK> Creating a pull request(when done with your code/changes) Step 1: Run: git add . Step 2: Run: git commit -m "" Step 3: git push origin <BRANCH_NAME>. Go to the repository on your profile As soon as you get there, you are going to see a green ‘compare and create a pull request’ Click on it, and type your message, click on create pull request! Thanks to: [@chisombiri](https://github.com/chisombiri)
 
-###Brief Sitemap
+### Brief Sitemap
 ### Landing Page
 The landing page contains the basic details of the company. These includes:
 * About
