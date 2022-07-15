@@ -3,7 +3,7 @@
 This project was made to design an application which enables easy handling of data regarding the hostels. The main objectives of this application is to maintain and manage the hostels information easily, to avoid complexity, to reduce time and human effort in data processing and maintaining the admin and students' information. This project deals with the problems of managing hostels and avoid the problems which occur when carried manually.
 | **Contributors** | **Github Link**|
 | ----------- | ----------- |
-| Akinosi Eniola | https://github.com/AkinosiEniola |
+| [Akinosi Eniola](https://github.com/AkinosiEniola)
 | Oketola Samuel | https://github.com/dprince001 |
 | Adeniyi Joshua | https://github.com/Jplayskeys |
 | Adegoke Fuad | https://github.com/ALIPHATICHYD |
