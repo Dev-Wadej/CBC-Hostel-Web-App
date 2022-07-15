@@ -1,21 +1,21 @@
 # CBC-Hostel-Web-App
 ### Project Purpose
 This open-source project is an application which enables easy handling of data regarding the hostels. The main objectives of this application is to maintain and manage the hostels information easily, to avoid complexity, to reduce time and human effort in data processing and maintaining the admin and students' information. This project deals with the problems of managing hostels and avoid the problems which occur when carried manually; connecting the business to custmers, digitally.
-| **Contributors** | ** ** |
+| **Contributors** | **Role** |
 | ----------- | ----------- |
-| [Chisombiri Nlewedim](https://github.com/chisombiri)
-| [Akinosi Eniola](https://github.com/AkinosiEniola)
-| [Oketola Samuel](https://github.com/dprince001)
-| [Adeniyi Joshua](https://github.com/Jplayskeys)
-| [Adegoke Fuad](https://github.com/ALIPHATICHYD)
-| [Chi-ife Ileka](https://github.com/chi-ife)
-| [Hamjad Idris](https://github.com/Hamjadidris)
-| [Ojekunle Micheal](https://github.com/michojekunle)
-| [Benedict Nwoko](https://github.com/BenedictNwoko)
-| [Ajiboye Fiyin](http://github.com/FiyinfoluwaAjiboye)
-| [Janet Olukotun](https://github.com/Techkira)
-| [Alvin](http://github.com/Vinsax19)
-| [Hollas](https://github.com/HollasII)
+| [Chisombiri Nlewedim](https://github.com/chisombiri) | Product Lead & Development|
+| [Akinosi Eniola](https://github.com/AkinosiEniola) | Design and Development |
+| [Oketola Samuel](https://github.com/dprince001) | Development |
+| [Adeniyi Joshua](https://github.com/Jplayskeys) | Development |
+| [Adegoke Fuad](https://github.com/ALIPHATICHYD) | Development |
+| [Chi-ife Ileka](https://github.com/chi-ife) | Development |
+| [Hamjad Idris](https://github.com/Hamjadidris) | Development |
+| [Ojekunle Micheal](https://github.com/michojekunle) | Design and Development |
+| [Benedict Nwoko](https://github.com/BenedictNwoko) | Development |
+| [Ajiboye Fiyin](http://github.com/FiyinfoluwaAjiboye) | Design and Development |
+| [Janet Olukotun](https://github.com/Techkira) | Design and Development |
+| [Alvin](http://github.com/Vinsax19) | Development |
+| [Hollas](https://github.com/HollasII) | Development |
 
 ### Basic Website Structure
 * Landing Page
