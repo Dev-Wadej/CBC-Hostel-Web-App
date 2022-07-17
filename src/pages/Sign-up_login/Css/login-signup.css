@@ -1,0 +1,303 @@
+:root{
+    --color-green: #09AD96;
+    --color-orange: #D96F00;
+    --color-fading:rgba(0, 0, 0, 0.5);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+button{
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    transform: scale(1.05);
+}
+.main.container{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image-container{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: login-slide 0.5s ease;
+}
+@keyframes login-slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+.sign-up{
+    animation: signup-slide 0.5s ease;
+}
+@keyframes signup-slide {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.image-container .review-container{
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    bottom: 10%;
+    color: #fff;
+    backdrop-filter: blur(5px);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2vh 2vw;
+    line-height: 1.5;
+    word-spacing: 0.03rem;
+    letter-spacing: 0.03rem;
+}
+.review-container .stars-container{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.review-container div span{
+    display: flex;
+    justify-content: flex-end;
+    gap:0.1rem ;
+}
+.review-container div span img{
+        width: 10%;
+}
+#ceo-button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#ceo-button img{
+    width: 25%;
+    height: 70%;
+}
+#next-prev-button{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.form-container{
+    height: 100%;
+    width: 50%;
+    padding: 5vh 5vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: login-form 0.6s ease;
+
+}
+.signup1-form-container{
+    padding: 2vh 5vw;
+}
+@keyframes login-form {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.form-container.off{
+    transition: all ease-in-out 3s;
+    transform: scale(0);
+}
+.login-head{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login-head h6{
+    color: var(--color-fading);
+}
+.signup1-head{
+    height: 30%;
+    text-align: center;
+    padding-bottom: 3vh;
+    margin-bottom: 3vh;
+    border-bottom:1px solid black ;
+    position: relative;
+}
+.signup2-head,.signup3-head{
+    border: none;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+}
+.or{
+    width: 5rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: -0.8rem;
+    right: 40%;
+    left: 40%;
+    
+}
+.cbcLogo{
+    height: 6vh;
+    width: 9vw;
+    margin-bottom: 1vh;
+}
+form{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+form.signup1{
+    height: 60%;
+}
+form h2{
+    text-align: center;
+}
+form h6{
+    text-align: center;
+    color: var(--color-fading);
+}
+form.signup2{
+    height: 80%;
+}
+form.signup3{
+    height: 70%;
+}
+.reset{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-group input{
+    border-radius: 5px;
+    border: 1px solid #000;
+    height: 5vh;
+    padding-left: 1vw;
+}
+.signup1 .form-group input{
+    height: 4vh;
+}
+.form-group label{
+    margin-bottom: 1vh;
+}
+.form-group select{
+    border-radius: 5px;
+    border: 1px solid #000;
+    height: 5vh;
+    padding-left: 1vw;
+}
+.checkbox-reset{
+    display: flex;
+    justify-content: space-between;
+
+}
+.checkbox-reset input[type=checkbox]{
+    transform: scale(1.5);
+    margin-right:0.5vw;
+}
+.checkbox-reset a{
+    text-decoration: none;
+    color: #000;
+}
+form .login-btn, .create-account-btn{
+    height: 6vh;
+    background-color: var(--color-green);
+    font-size: 1.2rem;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+}
+.prev-next-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.prev-next-btn button, .next-btn{
+    margin: 1vh;
+    height: 4vh;
+    width: 20%;
+    background-color: var(--color-green);
+    font-size: 1rem;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+}
+.next-btn{
+    align-self: flex-end;
+}
+.terms-and-conds-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20%;
+}
+.terms-and-conds-container h6{
+    text-decoration: underline;
+}
+.terms-and-conds-container a{
+    color: #D96F00;
+}
+.google-signin-btn{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    gap: 2vw;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border: 0.5px solid #000;
+}
+.signup1-head .google-signin-btn{
+    height: 4vh;
+}
+.login-footer{
+    text-align: center;
+    position: relative;
+}
+.signup-footer{
+ margin-top: 2vh;
+}
+.login-footer a{
+    text-decoration: none;
+    color: var(--color-orange);
+}
+.vectorImg{
+    position: relative;
+    bottom: 0;
+    left: 7rem;
+}
+.signup-footer .vectorImg{
+    left: 6rem;
+}
