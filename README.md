@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# CBC-Hostel-Web-App
+### Project Purpose
+This open-source project is an application which enables easy handling of data regarding the hostels. The main objectives of this application is to maintain and manage the hostels information easily, to avoid complexity, to reduce time and human effort in data processing and maintaining the admin and students' information. This project deals with the problems of managing hostels and avoid the problems which occur when carried manually; connecting the business to custmers, digitally.
+| **Contributors** | **Role** |
+| ----------- | ----------- |
+| [Chisombiri Nlewedim](https://github.com/chisombiri) | Product Lead & Development|
+| [Akinosi Eniola](https://github.com/AkinosiEniola) | Design and Development |
+| [Oketola Samuel](https://github.com/dprince001) | Development |
+| [Adeniyi Joshua](https://github.com/Jplayskeys) | Development |
+| [Adegoke Fuad](https://github.com/ALIPHATICHYD) | Development |
+| [Chi-ife Ileka](https://github.com/chi-ife) | Development |
+| [Hamjad Idris](https://github.com/Hamjadidris) | Development |
+| [Ojekunle Micheal](https://github.com/michojekunle) | Design and Development |
+| [Benedict Nwoko](https://github.com/BenedictNwoko) | Development |
+| [Ajiboye Fiyin](http://github.com/FiyinfoluwaAjiboye) | Design and Development |
+| [Janet Olukotun](https://github.com/Techkira) | Design and Development |
+| [Alvin](http://github.com/Vinsax19) | Development |
+| [Hollas](https://github.com/HollasII) | Development |
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Basic Website Structure
+* Landing Page
+* Company's Page
+* Hostel's Page
+* User login and signup page
+* User dashboard page
+* Appointment page
+* Terms and conditions page
 
-## Available Scripts
+### Sections Maintained
+* Header(navigation and logo)
 
-In the project directory, you can run:
+### To Contribute here(Version control) 
+Step 1: Click on Fork at the top right corner Step 2: Clone your forked repository Step 3: cd into the cloned folder | GrowersBrains Step 4: git remote add upstream https://github.com/Jplayskeys/CBC-Hostel-Web-App Step 5: git pull upstream "branch" Step 6: Check out to the task/feature branch | git checkout -b <NAME_OF_THE_TASK> Creating a pull request(when done with your code/changes) Step 1: Run: git add . Step 2: Run: git commit -m "" Step 3: git push origin <BRANCH_NAME>. Go to the repository on your profile As soon as you get there, you are going to see a green ‘compare and create a pull request’ Click on it, and type your message, click on create pull request! Thanks to: [@chisombiri](https://github.com/chisombiri)
 
-### `npm start`
+### Brief Sitemap
+### Landing Page
+The landing page contains the basic details of the company. These includes:
+* About
+* Hostels
+* Admin
+* Activities
+* Contact
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### User login and signup page
+This is the page where the user does the basic documentation of herself. It contains a form which allow users to input their details.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##### The table below shows the form sections and input that are in the section
+| Section | Inputs |
+| ----------- | ----------- |
+| **Login page** | User Email |
+|  | User Password |
+| **Signup Page** | User Full Name |
+| | User Email |
+| | User Number |
+| | User Hostel |
+| | User Gender |
+| | User Marital Status |
+| | User Age |
+| | User Occupation |
+| | User Disabilities |
+| | User Next Of Kin |
+| | Next of kin's Email |
+| | Next of kin's Number |
+| | Next of kin's Address |
 
-### `npm test`
+### Hostels Page
+The hostels page showcases hostel and bedspaces available for accomdation. It consists of quality images of hostels, address of each hostel and prices of the hostels available.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### User dashboard page
+This is the page that contains the graphical report of various data
+relevant to the user. It has five sections, namely:
+* Biodata
+* Payment
+* Activities
+* Reviews
+* Terms and conditions
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Terms and Conditions Page
+This page clearly states the terms and conditions also with the rules and regulation guiding the hostels. It also talks about the refund policy of the hostels. 
