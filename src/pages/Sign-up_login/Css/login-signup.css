@@ -99,7 +99,7 @@ button:hover{
 }
 #next-prev-button{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 40%;
 }
 
@@ -152,6 +152,11 @@ button:hover{
     height: fit-content;
     padding: 0;
     margin: 0;
+    position: relative;
+}
+.signup3-head button{
+    display: none;
+
 }
 .or{
     width: 5rem;
@@ -300,4 +305,32 @@ form .login-btn, .create-account-btn{
 }
 .signup-footer .vectorImg{
     left: 6rem;
+}
+
+@media (max-width:1000px){
+    .image-container{
+        display: none;
+
+    }
+    .form-container{
+        width: 100%;
+        padding: 0;
+    }
+    .cbcLogo{
+        width: 30vw;
+    }
+    .signup3-head button{
+        display: block;
+        margin: 1vh;
+        height: 4vh;
+        width: 20%;
+        background-color: var(--color-green);
+        font-size: 1rem;
+        border: 0;
+        border-radius: 5px;
+        color: #fff;
+        position: absolute;
+        right:0;
+
+    }
 }
