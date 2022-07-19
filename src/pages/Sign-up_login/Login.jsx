@@ -12,7 +12,7 @@ import ReviewContainer from '../../component/ReviewContainer/ReviewContainer';
 //i tried making the class names as readable as i could
 
 const Login = ({ onSignup, onReset }) => {
-  const title = `“Hostel Life Contributes a lot in introspection.” <br /> “It
+  const title = `“Hostel Life Contributes a lot in introspection.” “It
   forces you to get out of the baby treatment and face the
   Realities”`;
 
@@ -71,7 +71,7 @@ const Login = ({ onSignup, onReset }) => {
         </button>
         <div className="login-footer">
           <h5>
-            I don 't have an account with CBC!
+            I don 't have an account with CBC!{' '}
             <a href="# " onClick={onSignup}>
               Sign up
             </a>

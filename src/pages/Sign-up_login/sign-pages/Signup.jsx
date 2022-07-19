@@ -30,7 +30,7 @@ const defaultFormFields = {
   nextOfKinName: '',
   nextOfKinEmail: '',
   nextOfKinPhoneNumber: '',
-  userAddress: '',
+  nextOfKinAddress: '',
 };
 
 const Signup = ({ onLogin, onReset }) => {
@@ -102,7 +102,7 @@ const Signup = ({ onLogin, onReset }) => {
           />
           <FormInput
             type="number"
-            name="phone-number"
+            name="phoneNumber"
             id="phone-number"
             placeholder="+234"
             onChange={handleChange}
@@ -115,7 +115,7 @@ const Signup = ({ onLogin, onReset }) => {
             <select
               name="hostel"
               id="hostel"
-              value={formData.hostel}
+             value={formFields.hostel}
               onChange={handleChange}
             >
               <option value="" disabled selected>
@@ -124,7 +124,9 @@ const Signup = ({ onLogin, onReset }) => {
               <option value="Catalyst Hostels">
                 Catalyst Hostels
               </option>
-              <option value="Bav Hostels"> BAV Hostels </option>
+              <option value="BAV Hostels">
+                 BAV Hostels
+              </option>
             </select>
           </div>
         </form>
@@ -133,7 +135,7 @@ const Signup = ({ onLogin, onReset }) => {
         </button>
         <div className="login-footer signup-footer">
           <h5>
-            I have an account with CBC!
+            I have an account with CBC! {' '}
             <a href="# " onClick={onLogin}>
               Login
             </a>

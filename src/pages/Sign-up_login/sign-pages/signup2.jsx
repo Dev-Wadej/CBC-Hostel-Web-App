@@ -6,6 +6,7 @@ import ReviewContainer from '../../../component/ReviewContainer/ReviewContainer'
 import { useContext } from 'react';
 import { UserContext } from '../../../context/UserContext';
 import { AuthContext } from '../../../context/authContext';
+import FormInput from '../../../component/FormInput/FormInput';
 
 const Signup2 = ({ onLogin }) => {
   const title = ' “Unexpected Friendships Are the Best Ones”';
@@ -61,8 +62,9 @@ const Signup2 = ({ onLogin }) => {
           <div className="form-group">
             <label htmlFor="marital-status">Marital Status</label>
             <select
-              name="marital-status"
+              name="maritalStatus"
               id="Marital-status"
+              value={formFields. maritalStatus}
               onChange={handleChange}
             >
               <option value="" disabled selected></option>
@@ -70,16 +72,14 @@ const Signup2 = ({ onLogin }) => {
               <option value="Not Married">Not Married</option>
             </select>
           </div>
-          <div className="form-group">
-            <label htmlFor="Age">Age</label>
-            <input
+          <FormInput
+              label="Age"           
               type="number"
-              name="Age"
+              name="age"
               id="age"
               value={formFields.age}
               onChange={handleChange}
-            />
-          </div>
+          />
           <div className="form-group">
             <label htmlFor="occupation">Occupation</label>
             <select
@@ -92,17 +92,16 @@ const Signup2 = ({ onLogin }) => {
               <option value="not Working">Not Working</option>
             </select>
           </div>
-          <div className="form-group">
-            <label htmlFor="disabilities">
-              Disabilities (if any)
-            </label>
-            <input
-              type="text"
-              name="disabilities"
-              id="disabilities"
-              onChange={handleChange}
-            />
-          </div>
+
+          <FormInput
+            label="Disabilities (if any)"
+            type="text"
+            name="disabilities"
+            id="disabilities"
+            value={formFields.disabilities}
+            onChange={handleChange}
+           />
+        
         </form>
         <div className="prev-next-btn">
           <button className="prev-btn" onClick={prevPage}>

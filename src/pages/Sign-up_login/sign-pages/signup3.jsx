@@ -5,12 +5,24 @@ import vectorImg from '../../../Assets/Vector 18.png';
 import starImg from '../../../Assets/Star 5.svg';
 import prevOn from '../../../Assets/prev-on.png';
 import nextOff from '../../../Assets/next-off.png';
+import UserContext from '../../../context/UserContext';
 import { useContext } from 'react';
 import { AuthContext } from '../../../context/authContext';
+import FormInput from '../../../component/FormInput/FormInput';
+
+
 
 const Signup3 = ({ onsignup2, onLogin }) => {
   const { setFormFields, formFields } = useContext(AuthContext);
-
+  
+  const { setSignupPage1, setSignupPage2, setSignupPage3 } =
+  useContext(UserContext);
+  
+  const prevPage = () => {
+  setSignupPage1(false);
+  setSignupPage3(false);
+  setSignupPage2(true);
+  };
   const handleChange = (event) => {
     const { name, value } = event.target;
 
@@ -27,54 +39,54 @@ const Signup3 = ({ onsignup2, onLogin }) => {
             src={cbcLogo}
             alt="logo of CBC Africa"
           />
+          {/* This button is only temporary  */}
+          <button className="prev-btn" onClick={prevPage}>
+            Prev
+          </button>
         </div>
 
         <form className="signup3">
           <h2>Create An Account</h2>
           <h6>Continue from where you left off!</h6>
-          <div className="form-group">
-            <label htmlFor="next-of-kin">Next Of Kin</label>
-            <input
-              type="text"
-              name="next of kin"
-              id="next of kin"
-              placeholder="Enter Full Name"
-              value={formFields.nextOfKinName}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="next-of-kin-email">Email:</label>
-            <input
-              type="email"
-              name="next of kin email"
-              id="next-of-kin-email"
-              placeholder="Enter next of kin's Email"
-              value={formFields.nextOfKinEmail}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="next-of-kin-number">Phone Number:</label>
-            <input
-              type="number"
-              name="next-of-kin-phone-number"
-              id="next-of-kin-phone-number"
-              placeholder="+234"
-              value={formFields.nextOfKinPhoneNumber}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="address">Address:</label>
-            <input
-              type="text"
-              name="address"
-              id="address"
-              value={formFields.userAddress}
-              onChange={handleChange}
-            />
-          </div>
+
+          <FormInput
+            label="Next Of Kin"
+            type="text"
+            name="nextOfKinName"
+            id="next of kin"
+            placeholder="Enter Full Name"
+            value={formFields.nextOfKinName}
+            onChange={handleChange}
+          />
+
+          <FormInput
+            label="Email:"
+            type="email"
+            name="nextOfKinEmail"
+            id="next-of-kin-email"
+            placeholder="Enter next of kin's Email"
+            value={formFields.nextOfKinEmail}
+            onChange={handleChange}
+          />
+
+          <FormInput
+            label ="Phone Number:"
+            type="number"
+            name="nextOfKinPhoneNumber"
+            id="next-of-kin-phone-number"
+            placeholder="+234"
+            value={formFields.nextOfKinPhoneNumber}
+            onChange={handleChange}
+          />
+
+          <FormInput
+            label="Address:"
+            type="text"
+            name="nextOfKinAddress"
+            id="address"
+            value={formFields.nextOfKinAddress}
+            onChange={handleChange}
+          />
         </form>
         <div className="terms-and-conds-container">
           <h6>
@@ -107,7 +119,7 @@ const Signup3 = ({ onsignup2, onLogin }) => {
       <div className="image-container sign-up">
         <img src={thirdSignupImg} alt="img of a bunk" />
         <div className="review-container">
-          <h2></h2>
+          <h2>{title}</h2>
           <div className="stars-container">
             <h2>CBC</h2>
             <span>
@@ -127,10 +139,10 @@ const Signup3 = ({ onsignup2, onLogin }) => {
             <div id="next-prev-button">
               <img
                 src={prevOn}
-                onClick={onsignup2}
                 alt="disabled previous button"
+                onClick={prevPage}
               />
-              <img src={nextOff} alt="active next button" />
+             
             </div>
           </section>
         </div>
