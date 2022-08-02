@@ -30,8 +30,8 @@ header ul li {
 header ul li a {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 12px;
+  line-height: 15px;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
@@ -52,15 +52,15 @@ header #facility {
 header #facility h1 {
   font-style: normal;
   font-weight: 900;
-  font-size: 60px;
-  line-height: 73px;
+  font-size: 40px;
+  line-height: 50px;
   text-align: center;
   margin: 5px;
 }
 header #facility h1 span {
   font-weight: 400;
-  font-size: 60px;
-  line-height: 72.61px;
+  font-size: 40px;
+  line-height: 50px;
   text-align: center;
   color: #D96F00;
 }
@@ -69,18 +69,18 @@ header #facility h1 span:nth-child(2) {
 }
 header #facility p {
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 25px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
   text-align: center;
   letter-spacing: 0.01em;
   color: rgba(255, 255, 255, 0.8);
 }
 header #facility a {
   font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
   background: #09AD96;
   border-radius: 6px;
   padding: 16px;
@@ -106,9 +106,9 @@ header .save-time {
 }
 header .save-time #time-text h3 {
   font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 42px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
   letter-spacing: 0.01em;
 }
 header .save-time #time-text h3 span {
@@ -117,16 +117,16 @@ header .save-time #time-text h3 span {
 header .save-time #time-text p {
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 25px;
   letter-spacing: 0.01em;
   color: rgba(0, 0, 0, 0.75);
 }
 header .save-time a {
   font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
   background: #09AD96;
   border-radius: 6px;
   padding: 16px;
@@ -155,8 +155,8 @@ header .save-time a {
   padding-left: 15px;
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
-  line-height: 54px;
+  font-size: 38px;
+  line-height: 48px;
   text-align: center;
   color: #000000;
 }
@@ -190,15 +190,15 @@ header .save-time a {
 .react-hold .hostels #hostels #hostel #location h3 {
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 35px;
+  line-height: 40px;
   padding: 20px;
 }
 .react-hold .hostels #hostels #hostel #location p {
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 43px;
+  font-size: 20px;
+  line-height: 38px;
   padding: 0 25px;
 }
 .react-hold .hostels #hostels #hostel #location .space {
@@ -213,8 +213,8 @@ header .save-time a {
   height: 194.95px;
   background: #09AD96;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 25px;
+  line-height: 30px;
   color: #ffffff;
   border-radius: 10.8303px;
 }
@@ -256,8 +256,8 @@ header .save-time a {
   padding-left: 15px;
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
-  line-height: 54px;
+  font-size: 38px;
+  line-height: 48px;
   text-align: center;
   color: #000000;
 }
@@ -270,15 +270,15 @@ header .save-time a {
   width: 676px;
   height: 580px;
   font-weight: 600;
-  font-size: 25px;
-  line-height: 45px;
+  font-size: 18px;
+  line-height: 40px;
   letter-spacing: 0.01em;
 }
 .react-hold .about #about a {
   font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
   background: #09AD96;
   border-radius: 6px;
   padding: 16px;
@@ -310,8 +310,8 @@ header .save-time a {
   padding-left: 15px;
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
-  line-height: 54px;
+  font-size: 38px;
+  line-height: 48px;
   text-align: center;
   color: #000000;
 }
@@ -345,8 +345,8 @@ header .save-time a {
 .react-hold .admins .images .image-list div div h3 {
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
-  line-height: 48px;
+  font-size: 25px;
+  line-height: 40px;
 }
 .react-hold .admins .images .image-list div div span {
   display: flex;
@@ -355,9 +355,9 @@ header .save-time a {
 }
 .react-hold .admins .images .image-list div div span a {
   font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
   background: #09AD96;
   border-radius: 6px;
   padding: 16px;
@@ -399,8 +399,8 @@ header .save-time a {
   padding-left: 15px;
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
-  line-height: 54px;
+  font-size: 38px;
+  line-height: 48px;
   text-align: center;
   color: #000000;
 }
@@ -440,13 +440,13 @@ header .save-time a {
 }
 .react-hold .activity .content .content-img div span h3 {
   font-weight: 700;
-  font-size: 30px;
-  line-height: 48px;
+  font-size: 25px;
+  line-height: 40px;
 }
 .react-hold .activity .content .content-img div span p {
   font-weight: 400;
-  font-size: 20px;
-  line-height: 43px;
+  font-size: 18px;
+  line-height: 28px;
 }
 .react-hold .activity .content .content-img div span a {
   text-decoration: none;
@@ -454,8 +454,8 @@ header .save-time a {
   align-items: center;
   gap: 10px;
   font-weight: 500;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 25px;
+  line-height: 30px;
   color: #000000;
   align-self: flex-end;
 }
@@ -474,8 +474,8 @@ header .save-time a {
   padding-left: 15px;
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
-  line-height: 54px;
+  font-size: 38px;
+  line-height: 48px;
   text-align: center;
   color: #000000;
 }
@@ -502,8 +502,8 @@ header .save-time a {
 .react-hold .contact .contact-container div h3 {
   text-transform: capitalize;
   font-weight: 600;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 35px;
+  line-height: 40px;
   text-align: center;
 }
 .react-hold .contact .contact-container div p {
@@ -513,8 +513,8 @@ header .save-time a {
   margin: 10px;
   gap: 10px;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 25px;
 }
 .react-hold .contact form {
   display: flex;
@@ -527,8 +527,8 @@ header .save-time a {
 }
 .react-hold .contact form h2 {
   font-weight: 600;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 35px;
+  line-height: 40px;
   text-align: center;
 }
 .react-hold .contact form input {
@@ -540,9 +540,9 @@ header .save-time a {
 }
 .react-hold .contact form a {
   font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
   background: #09AD96;
   border-radius: 6px;
   padding: 16px;
@@ -576,8 +576,8 @@ footer {
 }
 footer p {
   font-weight: 400;
-  font-size: 25px;
-  line-height: 135%;
+  font-size: 20px;
+  line-height: 128%;
   text-align: center;
   letter-spacing: 0.01em;
   color: rgba(0, 0, 0, 0.9);
