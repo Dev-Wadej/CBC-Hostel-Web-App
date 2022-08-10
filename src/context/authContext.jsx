@@ -22,7 +22,7 @@ export const AuthContext = createContext({
 
 export const AuthProvider = ({ children }) => {
   const [formFields, setFormFields] = useState(defaultFormFields);
-  console.log(formFields);
+  // console.log(formFields);
   const value = { formFields, setFormFields };
   return (
     <AuthContext.Provider value={value}>
