@@ -15,17 +15,17 @@ const Nav = () => {
   return (
     <ul className={`header-nav ${pageRoute === '/hostels' ? 'dark-border-lines' : ''}`}>
           <li>
-            <Link to='#' className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : ''}`}>
+            <Link to='#' className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : 'white-nav-links'}`}>
               company
             </Link>
           </li>
           <li>
-            <Link to={'/hostels'} href="#" className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : ''}`}>
+            <Link to={'/hostels'} className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : 'white-nav-links'}`}>
               hostels
             </Link>
           </li>
           <li>
-            <Link to='#' className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : ''}`}>
+            <Link to='#' className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : 'white-nav-links'}`}>
               admins
             </Link>
           </li>
@@ -35,17 +35,17 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link to={'/auth'} href="#" className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : ''}`}>
+            <Link to={'/auth'} className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : 'white-nav-links'}`}>
               login
             </Link>
           </li>
           <li>
-            <Link to='#' className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : ''}`}>
+            <Link to='#' className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : 'white-nav-links'}`}>
               contact us
             </Link>
           </li>
           <li>
-            <Link to='#' className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : ''}`}>
+            <Link to='#' className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : 'white-nav-links'}`}>
               t & c
             </Link>
           </li>
