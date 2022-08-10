@@ -1,38 +1,10 @@
-import React from 'react';
-import cbcLogo from '../../Assets/cbc logo png 1.png';
-import { Link } from 'react-router-dom';
+import Nav from '../../component/nav/nav';
 import './css/home.css';
 
 const Header = () => {
   return (
     <header>
-      <nav className="header-nav">
-        <ul>
-          <li>
-            <a href="#">COMPANY</a>
-          </li>
-          <li>
-            <a href="#">hostels</a>
-          </li>
-          <li>
-            <a href="#">admins</a>
-          </li>
-          <li>
-            <img src={cbcLogo} alt="" />
-          </li>
-          <li>
-            <Link to={'/auth'} href="#">
-              login
-            </Link>
-          </li>
-          <li>
-            <a href="#">contact us</a>
-          </li>
-          <li>
-            <a href="#">t & c</a>
-          </li>
-        </ul>
-      </nav>
+      <Nav />
       <div id="facility">
         <h1>
           {' '}

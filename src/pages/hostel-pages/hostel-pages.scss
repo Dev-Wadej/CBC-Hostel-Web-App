@@ -1,0 +1,49 @@
+.hostel-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hostel-card-container {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+    .previous-page {
+        transform: rotate(180deg);
+        left: 0;
+    }
+
+    .next-page {
+        right: 0;
+    }
+
+    .prev-next-btn {
+        position: absolute;
+        cursor: pointer;
+    }
+}
+
+.pages-container {
+    margin-bottom: 20px;
+    list-style: none;
+    display: flex;
+
+    .page-number {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        margin: 0 10px;
+        background-color: #d9d9d9;
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: #09AD96;
+    }
+}
