@@ -1,0 +1,44 @@
+.hostel-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hostel-card-container {
+  width: 95vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+.hostel-card-container .previous-page {
+  transform: rotate(180deg);
+  left: 0;
+}
+.hostel-card-container .next-page {
+  right: 0;
+}
+.hostel-card-container .prev-next-btn {
+  position: absolute;
+  cursor: pointer;
+}
+
+.pages-container {
+  margin-bottom: 20px;
+  list-style: none;
+  display: flex;
+}
+.pages-container .page-number {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
+.pages-container .active {
+  background-color: #09AD96;
+}/*# sourceMappingURL=hostel-pages.css.map */
