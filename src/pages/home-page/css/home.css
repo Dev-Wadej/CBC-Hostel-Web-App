@@ -19,6 +19,29 @@ header {
   background: url(../../../Assets/homepage/perfect\ aaa\ 2.png);
   background-repeat: no-repeat;
 }
+header ul {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+header ul li {
+  padding: 0 20px;
+}
+header ul li a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+header ul li img {
+  display: flex;
+  padding: 20px;
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  border-right: 2px solid rgba(255, 255, 255, 0.5);
+}
 header #facility {
   display: flex;
   flex-direction: column;

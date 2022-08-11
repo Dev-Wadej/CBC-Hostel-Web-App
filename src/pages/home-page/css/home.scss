@@ -27,27 +27,27 @@ header{
   // width: 100%;
   // height: 878px;
 
-  // ul{
-  //   display: flex;
-  //   align-items: center;
-  //   border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  ul{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 
-  //   li{
-  //     padding: 0 20px;
+    li{
+      padding: 0 20px;
 
-  //     a{
-  //       font-style: normal;
-  //       font-weight: 700;
-  //       font-size: 16px;
-  //       line-height: 19px;
-  //       text-decoration: none;
-  //       text-transform: uppercase;
-  //       color: map-get($colors, headText);
-  //     }
+      a{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: map-get($colors, headText);
+      }
 
-  //     @include imager;
-  //   }
-  // }
+      @include imager;
+    }
+  }
 
   #facility{
     display: flex;
