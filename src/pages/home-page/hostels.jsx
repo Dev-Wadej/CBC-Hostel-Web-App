@@ -13,15 +13,10 @@ const Hostels = () => {
               <img src={room1} alt=""/>
               <div id="location">
                   <h3>Location</h3>
-                  <p>
-                      Catalyst Hostel 
-                      <br/>
-                      Balogun square, Abule Oja, Lagos 
-                      <br/>
-                      Fully Serviced 
-                      <br/>
-                      Beds, Fridge, Microwave and Air conditioner
-                  </p>
+                  <p> Catalyst Hostel</p>
+                  <p> Balogun square, Abule Oja, Lagos </p>
+                  <p>Fully Serviced</p>
+                  <p>Beds, Fridge, Microwave and Air conditioner</p>
                   <a href="">Book Now</a>
                   <p className="space">$193.03  <span>Per Space</span></p>
               </div>
@@ -31,12 +26,10 @@ const Hostels = () => {
               <img src={room2} alt=""/>
               <div id="location">
                   <h3>Location</h3>
-                  <p>
-                      Pristine Hostel <br/>
-                      Balogun square, Abule Oja, Lagos. <br/>
-                      Fully Serviced <br/>
-                      Beds, Fridge, Microwave and Air conditioner
-                  </p>
+                  <p>Pristine Hostel</p>
+                  <p>Balogun square, Abule Oja, Lagos.</p>
+                  <p>Fully Serviced</p>
+                  <p>Beds, Fridge, Microwave and Air conditioner</p>
                   <a href="#">Book Now</a>
                   <p className="space">$193.03  <span>Per Space</span></p>
               </div>

@@ -4,60 +4,72 @@
     // justify-content: center;
     // width: 309px;
     font-style: normal;
+    display: inline-block;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
+    // font-size: 24px;
+    // line-height: 29px;
     background: map-get($map: $colors, $key:main );
     border-radius: 6px;
-    padding: 16px;
-    margin: 15px 0 0;
+    // padding: 16px 24px;
+    // margin: 15px 0 0;
     text-decoration: none;
     color: map-get($map: $colors, $key:headText );
   }
+
+  // @media (max-width: 960px) {
+  //   a {
+  //     font-size: 18px;
+  //   }
+  // }
+  // @media (max-width: 600px) {
+  //   a {
+  //     font-size: 16px;
+  //   }
+  // }
 }
 
-@mixin hostel {
-  .space{
-    position: absolute;
-    top: 80%;
-    left: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 176.53px;
-    height: 194.95px;
-    background: #09AD96;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    color: map-get($map: $colors, $key:headText );
-    border-radius: 10.8303px;
+// @mixin hostel {
+//   .space{
+//     position: absolute;
+//     top: 80%;
+//     left: 5%;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     width: 176.53px;
+//     height: 194.95px;
+    // background: #09AD96;
+    // font-weight: 700;
+//     font-size: 30px;
+//     line-height: 36px;
+//     color: map-get($map: $colors, $key:headText );
+//     border-radius: 10.8303px;
 
-    span{
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 24px;
-    }
-  }
+//     span{
+//       font-weight: 400;
+//       font-size: 20px;
+//       line-height: 24px;
+//     }
+//   }
 
-  a{
-    position: absolute;
-    top: 75%;
-    left: 60%;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 36px;
-    border-radius: 6.49819px;
-    padding: 20px;
-    margin: 15px 0 0;
-    text-decoration: none;
-    background: map-get($map: $colors, $key: secondary);
-    color: map-get($map: $colors, $key:headText );
+//   a{
+//     position: absolute;
+//     top: 75%;
+//     left: 60%;
+//     font-weight: 600;
+//     font-size: 30px;
+//     line-height: 36px;
+//     border-radius: 6.49819px;
+//     padding: 20px;
+//     margin: 15px 0 0;
+//     text-decoration: none;
+    // background: map-get($map: $colors, $key: secondary);
+    // color: map-get($map: $colors, $key:headText );
 
     
-  }
-}
+//   }
+// }
 
 @mixin head1 {
   h1{

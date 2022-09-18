@@ -15,7 +15,7 @@ const Contact = () => {
         <h1>Contact Us</h1>
         <div className="contact-container">
             <div>
-                <h3>offices</h3>
+                <h3>Office</h3>
                 <p><img src={vector}/>Balogun Square, Abuleoja, Yaba, Lagos State.</p>
                 <p><img src={phoner}/>+234 816 272 6997</p>
                 <p><img src={mailer}/>info@catalystbusinessconsult.com</p>
@@ -23,8 +23,8 @@ const Contact = () => {
             </div>
             <form>
                 <h2> Leave a Message</h2> 
-                <input type="text" id="name-form" placeholder="name"/>
-                <input type="text" id="number-form" placeholder="phone number"/>
+                <input type="text" id="name-form" placeholder="Name"/>
+                <input type="text" id="number-form" placeholder="Phone Number"/>
                 <input type="text" id="message-form" placeholder="Leave a Message"/>
                <a href="">Book An Appointment</a>
             </form>

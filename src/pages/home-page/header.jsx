@@ -7,7 +7,7 @@ const Header = () => {
       <Nav />
       <div id="facility">
         <h1>
-          {' '}
+          {/* {' '} */}
           <span>#1</span>
           <span className="second-span">Best</span> <br /> Hostel
           Facilities
@@ -26,7 +26,7 @@ const Header = () => {
           </h3>
           <p>You can Book an Appointment with us!</p>
         </div>
-        <a href="#">contact us</a>
+        <a href="#">Contact us</a>
       </div>
     </header>
   );

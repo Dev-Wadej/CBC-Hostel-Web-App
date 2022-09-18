@@ -25,6 +25,9 @@
   position: absolute;
   cursor: pointer;
 }
+.hostel-card-container .hostel-name {
+  font-size: 20px;
+}
 
 .pages-container {
   margin-bottom: 20px;

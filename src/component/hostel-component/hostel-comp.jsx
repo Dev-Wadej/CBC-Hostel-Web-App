@@ -7,7 +7,7 @@ const Hostel = ({hostel}) => {
   return (
     <div className='hostel-card'>
         <img className='hostel-image' src={imageUrl} />
-        <h3>{name}</h3>
+        <p className='hostel-name'>{name}</p>
         <div>
             <p className='address'>{address.suite}, {address.street}</p>
         </div>

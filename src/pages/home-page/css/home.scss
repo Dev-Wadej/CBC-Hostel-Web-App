@@ -4,6 +4,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -24,8 +25,9 @@ header{
   // justify-content: center;
   background: url(../../../Assets/homepage/perfect\ aaa\ 2.png);
   background-repeat: no-repeat;
-  // width: 100%;
+  width: 100%;
   // height: 878px;
+  height: 100vh;
 
   ul{
     display: flex;
@@ -48,25 +50,33 @@ header{
       @include imager;
     }
   }
+  
 
   #facility{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
     color: map-get($map: $colors, $key:headText );
-    margin:150px 0;
+    // margin:150px 0;
 
     h1{
       font-style: normal;
       font-weight: 900;
       font-size: 60px;
-      line-height: 73px;
+      // line-height: 73px;
       text-align: center;
       margin: 5px;
+
       span{
         font-weight: 400;
         font-size: 60px;
-        line-height: 72.61px;
+        // line-height: 72.61px;
         text-align: center;
         color: map-get($map: $colors, $key: secondary );
         &:nth-child(2){
@@ -83,21 +93,54 @@ header{
       text-align: center;
       letter-spacing: 0.01em;
       color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 15px;
+    }
+
+    a {
+      padding: 16px 28px;
     }
 
     @include btn;
+
+    @media (max-width: 960px) {
+      h1 {
+        font-size: 42px;
+
+        span {
+          font-size: 42px;
+        }
+      }
+
+      p {
+        font-size: 18px;
+      }   
+    }
+    @media (max-width: 550px) {
+      h1 {
+        font-size: 30px;
+
+        span {
+          font-size: 30px;
+        }
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
   }
 
   .save-time{
     position: absolute;
-    left: 25%;
-    top: 90%;
+    // left: 25%;
+    // top: 90%;
+    bottom: -10%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background: map-get($map: $colors, $key:headText );
-    width: 700px;
-    height: 130px;
+    // width: 700px;
+    // height: 130px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -128,9 +171,47 @@ header{
 
         color: rgba(0, 0, 0, 0.75);
       }
+
+    }
+
+    a {
+      padding: 16px;
     }
 
     @include btn;
+
+    @media (max-width: 960px) {
+      bottom: 0;
+      width: 100%;
+
+      #time-text {
+        h3 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+
+    @media (max-width: 500px) {
+      #time-text {
+        h3 {
+          font-size: 14px;
+          line-height: 1.2;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-size: 10px;
+          line-height: 1.2;
+        }
+
+      }
+      a {
+        font-size: 12px;
+      }
+    }
   }
 }
 
@@ -144,7 +225,8 @@ header{
     align-items: center;
     justify-content: center;
     row-gap: 20px;
-    margin: 0 0 500px;
+    width: 100%;
+    margin-bottom: 200px;
 
     @include head1;
 
@@ -152,29 +234,38 @@ header{
       display: flex;
       align-items: center;
       justify-content: space-around;
-      width: 70%;
+
+      // width: 70%;
+      width: 85%;
+      margin: 0 auto;
       padding: 50px;
       column-gap: 50px;
+      row-gap: 50px;
+
+      @media (max-width: 1200px) {
+        flex-direction: column;
+        row-gap: 150px;
+      }
       
       #hostel{
-        position: relative;
+        max-width: 550px;
+        min-width: 350px;
         img{
-          position: relative;
-          // bottom: 20%;
+          width: 100%;
         }
         
         #location{
-          position: absolute;
+          position: relative;
           display: flex;
           flex-direction: column;
           // align-items: center;
           justify-content: center;
-          bottom: -99%;
+          // bottom: -99%;
           z-index: -1;
           border: 2px solid rgba(0, 0, 0, 0.2);
-          padding: 10px;
-          width: 600px;
-          height: 489.53px;
+          padding: 20px 10px 80px;
+          // width: 600px;
+          // height: 489.53px;
           // width: 600px;
   
           h3{
@@ -196,11 +287,58 @@ header{
             // flex-wrap: nowrap;
           }
 
-          @include hostel;
+          .space {
+            position: absolute;
+            color: map-get($map: $colors, $key: headText);
+            background: #09AD96;
+            font-weight: 700;
+            text-align: center;
+            border-radius: 10px;
+            bottom: -25%;
+            padding: 2rem 1.2rem;
+
+            span {
+              font-weight: 400;
+              font-size: 16px;
+              display: block;
+            }
+          }
+
+          // @include hostel;
 
           a{
+            background: map-get($map: $colors, $key: secondary);
+            color: map-get($map: $colors, $key: headText);
+            position: absolute;
+            bottom: -5%;
+            right: 5%;
+            text-decoration: none;
+            padding: 10px 50px;
+            border-radius: 6px;
+
             &:hover{
               cursor: pointer;
+            }
+          }
+
+          @media (max-width: 960px) {
+            h3 {
+              font-size: 24px;
+            }
+            p {
+              font-size: 20px;
+            }
+            a {
+              font-size: 14px;
+            }
+          }
+          @media (max-width: 960px) {
+            h3 {
+              font-size: 20px;
+            }
+
+            p {
+              font-size: 16px;
             }
           }
         }
@@ -214,6 +352,8 @@ header{
    
     // justify-content: right;
     row-gap: 30px;
+    width: 90vw;
+    margin: 150px auto;
     // margin: 0 0 500px;
 
    
@@ -223,46 +363,112 @@ header{
       // flex-direction: column;
       // align-items: center;
       // justify-content: center;
-      padding: 20px;
-      gap: 30px;
+      // padding: 20px;
+      gap: 40px;
+      min-height: 680px;
       // float: right;
 
       p{
-        width: 676px;
-        height: 580px;
+        // width: 676px;
+        // height: 580px;
         font-weight: 600;
-        font-size: 25px;
-        line-height: 45px;
+        font-size: 22px;
+        line-height: 40px;
         letter-spacing: 0.01em;
       }
 
+      div {
+        position: relative;
+        flex-basis: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          max-height: 720px;
+        }
+      }
+
+      
       @include btn;
+
+      a {
+        padding: 16px 40px;
+        font-size: 22px;
+        // position: absolute;
+        // bottom: 0;
+        margin-top: 100px;
+        align-self: flex-end;
+        display: inline-block;
+      }
+
+      @media (max-width: 1200px) {
+        flex-direction: column;
+        width: 85vw;
+        margin: auto;
+      }
+
+      @media (max-width: 560px) {
+        p {
+          font-size: 18px;
+        }
+        a {
+          margin-top: 50px;
+          font-size: 18px;
+        }
+      }
+
+      @media (max-width: 450px) {
+        p {
+          font-size: 16px;
+          line-height: 30px;
+        }
+        a {
+          font-size: 16px;
+        }
+      }
     }
   }
 
   .back-image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    // object-fit: contain;
+    // overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
     // margin: 0 10px 60px;
     // padding-bottom: 20px;
-    img{
-      width: 100%;
-      height: 779px;
-    }
+    // img{
+    //   // width: 100%;
+    //   // height: 779px;
+    // }
   }
 
   .admins{
    @include tops;
+   width: 90vw;
+   margin: 130px auto;
 
     .images{
+      width: 100%;
       display: flex;
+      justify-content: space-between;
+
+      .arrow {
+        width: 50px;
+      }
       
 
       .image-list{
         display: flex;
         gap: 10px;
-        padding: 20px;
 
         
         div{
@@ -320,68 +526,112 @@ header{
           }
         }
 
-        .small{
-          width: 300px;
+        .admin{
+          // width: 300px;
           margin: 20px;
+          min-width: 250px;
+        }
+
+        @media (max-width: 1100px) {
+          .admin:nth-child(3) {
+            display: none;
+          }
+        }
+
+        @media (max-width: 900px) {
+          .admin:nth-child(2) {
+            display: none;
+          }
+        }
+      } 
+      @media (max-width: 500px) {
+        .arrow {
+          width: 30px;
         }
       }
     }
   }
 
-  .activity{
+  .activities{
     @include tops;
-    margin: 50px;
+    width: 85vw;
+    margin: 50px auto;
 
-    .content{
-      @include flexer;
+    & > div {
+      margin-top: 30px;
 
-      .content-img{
-        @include flexer;
-        flex-direction: row;
-        padding: 40px 0;
-        gap: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 80px;
 
-        div{
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          justify-content: center;
+      .activity {
+        flex: 1;
 
-          span{
-            width: 600px;
-            height: 300px;
-            padding: 20px;
-            border: 2px solid rgba(0, 0, 0, 0.2);
-            border-top: none;
-            @include flexer;
-            align-items: flex-start;
-            justify-content: space-evenly;
+        & > img {
+          width: 100%;
+          display: block;
+        }
 
-            h3{
-              font-weight: 700;
-              font-size: 30px;
-              line-height: 48px;
+        .activity-text {
+          height: 320px;
+          padding: 25px;
+          border: 1px solid #00000033;
+          position: relative;
+
+          h3 {
+            font-size: 30px;
+            margin: 15px 0 25px;
+          }
+          p {
+            font-size: 22px;
+            line-height: 1.4;
+            margin-bottom: 60px;
+          }
+          a {
+            color: black;
+            position: absolute;
+            bottom: 25px;
+            right: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 20px;
+
+            span {
+              vertical-align: middle;
+              margin-left: 15px;
             }
+          }
 
-            p{
-              font-weight: 400;
+          @media (max-width: 500px) {
+            max-height: 300px;
+            h3 {
               font-size: 20px;
-              line-height: 43px;
             }
+            p{
+              font-size: 18px;
+            }
+            a {
+              font-size: 16px;
 
-            a{
-              text-decoration: none;
-              display: flex;
-              align-items: center;
-              gap: 10px;
-              font-weight: 500;
-              font-size: 30px;
-              line-height: 36px;
-              color: map-get($colors , bodyText );
-              align-self: flex-end;
+              img {
+                width: 30px;
+              }
             }
           }
         }
+      }
+
+      @media (max-width: 1000px) {
+        flex-direction: column;
+      }
+
+
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 28px;
       }
     }
   }
@@ -391,24 +641,22 @@ header{
     
 
     .contact-container{
-      @include flexer;
-      flex-direction: row;
+      display: flex;
       justify-content: space-between;
+      align-items: flex-start;
       width: 90%;
+      gap: 50px;
       margin: 30px;
-      // gap: 70%;
       
       div{
         @include flexer;
         align-items: flex-start;
         gap: 10px;
-        margin: 30px 0;
         align-self: flex-start;
 
         h3{
-          text-transform: capitalize;
           font-weight: 600;
-          font-size: 40px;
+          font-size: 36px;
           line-height: 48px;
           text-align: center;
         }
@@ -423,6 +671,24 @@ header{
           font-size: 25px;
           line-height: 30px;
         }
+
+        @media (max-width: 600px) {
+          h3 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 16px;
+
+            img {
+              width: 25px;
+              height: 25px;
+            }
+          }
+        }
+      }
+
+      @media (max-width: 1000px) {
+        flex-direction: column;
       }
     }
 
@@ -430,12 +696,12 @@ header{
       // border: 1px solid red;
       @include flexer;
       align-items: flex-start;
-      width: 543px;
+      // width: 543px;
       gap: 20px;
 
       h2{
         font-weight: 600;
-        font-size: 40px;
+        font-size: 36px;
         line-height: 48px;
         text-align: center;
         
@@ -444,6 +710,7 @@ header{
       input{
         width: 100%;
         height: 60px;
+        padding-left: 15px;
 
         &:nth-of-type(3){
           height: 167px;
@@ -453,8 +720,25 @@ header{
       @include btn;
       a{
         width: 100%;
-        display: flex;
-        justify-content: center;
+        padding: 16px;
+        text-align: center
+      }
+
+      @media (max-width: 600px) {
+        h2 {
+          font-size: 28px;
+        }
+      }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 30px;
+      }
+      .contact-container {
+        border: 1px solid #00000033;
+        padding: 15px;
+        border-radius: 12px;
       }
     }
   }
@@ -470,10 +754,16 @@ header{
     border-left: 2px solid rgba(0, 0, 0, 0.2);
     border-right: 2px solid rgba(0, 0, 0, 0.2);
   }
+
+  @media (max-width: 700px) {
+    img {
+      width: 30vw;
+    }
+  }
 }
 
 footer{
-  background: map-get($colors , footCol );
+  background: map-get($colors , footCol);
   border-top: 3px solid rgba(0, 0, 0, 0.2);
   
   p{
@@ -482,7 +772,25 @@ footer{
     line-height: 135%;
     text-align: center;
     letter-spacing: 0.01em;
+    padding: 1rem;
     color: rgba(0, 0, 0, 0.9);
   }
 
+  @media (max-width: 800px) {
+    p {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    p {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    p {
+      font-size: 14px;
+    }
+  }
 }

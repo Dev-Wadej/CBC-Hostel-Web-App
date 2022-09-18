@@ -1,1 +1,1 @@
-{"version":3,"sources":["hostel-comp.scss","hostel-comp.css"],"names":[],"mappings":"AAAA;EACI,0CAAA;EACA,uBAAA;EACA,UAAA;EACA,gBAAA;EACA,uBAAA;ACCJ;ADCI;EACI,WAAA;EACA,aAAA;ACCR;ADEI;EACI,cAAA;ACAR;ADGI;EACI,cAAA;ACDR","file":"hostel-comp.css"}
+{"version":3,"sources":["hostel-comp.scss","hostel-comp.css"],"names":[],"mappings":"AAAA;EACI,0CAAA;EACA,uBAAA;EACA,UAAA;EACA,gBAAA;EACA,uBAAA;EACA,oBAAA;ACCJ;ADCI;EACI,eAAA;EACA,gBAAA;ACCR;ADEI;EACI,WAAA;EACA,aAAA;ACAR;ADGI;EACI,cAAA;ACDR;ADII;EACI,cAAA;ACFR","file":"hostel-comp.css"}

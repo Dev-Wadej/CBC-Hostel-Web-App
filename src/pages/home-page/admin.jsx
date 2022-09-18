@@ -13,9 +13,9 @@ const Admins = () => {
         <h1>Admins</h1>
         
         <div className="images">
-        <img src={arrow1} alt=""/>
+            <img src={arrow1} alt="" className="arrow"/>
             <div className="image-list">
-                <div className="small">
+                <div className="admin">
                     <img src={adminer} alt=""/>
                     <div>
                         <h3>CATALYST</h3>
@@ -26,7 +26,7 @@ const Admins = () => {
                     </div>
                 </div>
             
-                <div className="big">
+                <div className="admin">
                     <img src={adminer} alt=""/>
                     <div>
                         <h3>PRESTINE</h3>
@@ -37,7 +37,7 @@ const Admins = () => {
                     </div>
                 </div>
             
-                <div className="small">
+                <div className="admin">
                     <img src={adminer} alt=""/>
                     <div>
                         <h3>HOLLAS</h3>
@@ -48,7 +48,7 @@ const Admins = () => {
                     </div>
                 </div>
             </div>
-            <img src={arrow2} alt=""/>
+            <img src={arrow2} alt="" className="arrow"/>
         </div>
     
         <div>
