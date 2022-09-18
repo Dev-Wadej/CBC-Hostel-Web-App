@@ -738,6 +738,7 @@ header .save-time a {
 @media (max-width: 700px) {
   .bottom img {
     width: 30vw;
+    margin: auto;
   }
 }
 
