@@ -734,11 +734,11 @@ header .save-time a {
   padding: 20px;
   border-left: 2px solid rgba(0, 0, 0, 0.2);
   border-right: 2px solid rgba(0, 0, 0, 0.2);
+  margin: auto;
 }
 @media (max-width: 700px) {
   .bottom img {
     width: 30vw;
-    margin: auto;
   }
 }
 
