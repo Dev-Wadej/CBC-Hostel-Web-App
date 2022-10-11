@@ -14,7 +14,7 @@ const HostelPage = () => {
     const [width, setWidth] = useState(window.innerWidth);
     // const [hostelPerPage, setHostelPerPage] = useState(1);
 
-    let hostelPerPage = 1;
+    let hostelPerPage;
 
     const updateDimensions = () => {
         setWidth(window.innerWidth);
@@ -25,11 +25,13 @@ const HostelPage = () => {
     }, [width]);
 
 
-    if (width > 950 && width < 1100) {
+    if (width > 950 && width <= 1100) {
       hostelPerPage = 2;
     } 
-    else if (width > 1100 && width < 1300) {
+    else if (width > 1100) {
       hostelPerPage = 3;
+    } else {
+      hostelPerPage = 1;
     }
 
     console.log(width);

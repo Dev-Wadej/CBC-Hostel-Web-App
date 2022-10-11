@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import logo from '../../../Assets/homepage/cbc logo png 1.png'
 import logOut from '../../../Assets/homepage/log-out 1.svg'
 import './dropdown.scss'
@@ -7,12 +8,24 @@ const NavDropdown = () => {
     <div className='dropdown-container'>
         <img src={logo} alt="logo" />
         <ul>
-            <li><a href="#">COMPANY</a></li>
-            <li><a href="#">HOSTELS</a></li>
-            <li><a href="#">ADMINS</a></li>
-            <li><a href="#">LOGIN</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">TERMS</a></li>
+            <li>
+              <Link to={'/'}>COMPANY</Link>
+            </li>
+            <li>
+              <Link to={'/hostels'}>HOSTELS</Link>
+            </li>
+            <li>
+              <Link to={''}>ADMINS</Link>
+            </li>
+            <li>
+              <Link to={''}>LOGIN</Link>
+            </li>
+            <li>
+              <Link to={''}>CONTACT</Link>
+            </li>
+            <li>
+              <Link to={''}>TERMS</Link>
+            </li>
         </ul>
         <a href="#"><img src={logOut} alt="logout-icon"/> LOGOUT</a>
     </div>

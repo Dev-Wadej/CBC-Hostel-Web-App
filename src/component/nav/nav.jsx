@@ -32,7 +32,7 @@ const Nav = () => {
 
       <ul className={`header-nav ${pageRoute === '/hostels' ? 'dark-border-lines' : ''}`}>
         <li>
-          <Link to='#' className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : 'white-nav-links'}`}>
+          <Link to={'/'} className={`nav-links ${pageRoute === '/hostels' ? 'black-nav-links' : 'white-nav-links'}`}>
             company
           </Link>
         </li>
