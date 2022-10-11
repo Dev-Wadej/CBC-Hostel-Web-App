@@ -18,7 +18,7 @@ const NavDropdown = () => {
               <Link to={''}>ADMINS</Link>
             </li>
             <li>
-              <Link to={''}>LOGIN</Link>
+              <Link to={'/auth'}>LOGIN</Link>
             </li>
             <li>
               <Link to={''}>CONTACT</Link>
