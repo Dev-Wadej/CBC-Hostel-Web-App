@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import Nav from '../../component/nav/nav';
 import HOSTELDATA from '../../mockup-hostel-data.json'
@@ -11,7 +11,29 @@ import './hostel-pages.scss'
 
 const HostelPage = () => {
 
-    const hostelPerPage = 3;
+    const [width, setWidth] = useState(window.innerWidth);
+    // const [hostelPerPage, setHostelPerPage] = useState(1);
+
+    let hostelPerPage = 1;
+
+    const updateDimensions = () => {
+        setWidth(window.innerWidth);
+    }
+    useEffect(() => {
+        window.addEventListener("resize", updateDimensions);
+        return () => window.removeEventListener("resize", updateDimensions);
+    }, [width]);
+
+
+    if (width > 950 && width < 1100) {
+      hostelPerPage = 2;
+    } 
+    else if (width > 1100 && width < 1300) {
+      hostelPerPage = 3;
+    }
+
+    console.log(width);
+
     const [currentPage, setCurrentPage] = useState(1);
 
     const start = (currentPage - 1) * hostelPerPage;
