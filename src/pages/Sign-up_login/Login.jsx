@@ -20,10 +20,10 @@ const Login = ({ onSignup, onReset }) => {
     const [SignInEmail, setsignInEmail] = useState('')
     const [SignInPassword, setsignInPassword] = useState('')
 
-    const onEmailChange=(e)=>{
+    const onEmailChange=(e)=> {
       setsignInEmail(e.target.value)
     }
-    const onPasswordChange=(e)=>{
+    const onPasswordChange=(e)=> {
       setsignInPassword(e.target.value)
     }
     const onSubmitLogin =(e)=>{
