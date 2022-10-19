@@ -30,13 +30,6 @@ const AuthContainer = () => {
         setDisplay({signup: false, login: false, reset: true });
       };
 
-  
-
-
-
-
-
-
   return (
     <div className='auth-container'>
         {

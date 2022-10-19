@@ -1,6 +1,6 @@
 import React from 'react';
-import thirdSignupImg from '../../../Assets/sign-up-images/3rd signup page img.jpg';
-import cbcLogo from '../../../Assets/cbc logo png 1.png';
+import thirdSignupImg from '../../../Assets/sign-up-images/third_signup_img.svg';
+import cbcLogo from '../../../Assets/cbc_logo.svg';
 import vectorImg from '../../../Assets/Vector 18.png';
 import starImg from '../../../Assets/Star 5.svg';
 import prevOn from '../../../Assets/prev-on.png';
@@ -116,7 +116,7 @@ const Signup3 = ({ onsignup2, onLogin }) => {
           />
         </div>
       </div>
-      <div className="image-container sign-up">
+      <div className="image-container sign-up no-slide">
         <img src={thirdSignupImg} alt="img of a bunk" />
         <div className="review-container">
           <h2>{title}</h2>
