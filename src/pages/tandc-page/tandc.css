@@ -1,0 +1,73 @@
+#tandc-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../../Assets/tandc.png);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.tandcPage {
+  height: 100vh;
+  color: white;
+}
+
+.termsContainer {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.terms {
+  padding: 5%;
+  margin-bottom: 8%;
+}
+
+.terms div {
+  display: flex;
+  width: 90%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+}
+
+.terms div img {
+  height: 23px;
+  width: 23px;
+  margin-right: 15px;
+  margin-top: 8px;
+}
+
+.headText {
+  align-self: flex-start;
+  padding: 5%;
+}
+
+.headText div {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.agree {
+  margin-left: 7px;
+}
+
+h1 {
+  font-size: 60px;
+  padding-top: 24px;
+}
+
+@media screen and (max-width: 800px) {
+  .headText {
+    align-self: center;
+    padding: 15%;
+    text-align: center;
+  }
+
+  .headText div {
+    width: 100%;
+  }
+}
