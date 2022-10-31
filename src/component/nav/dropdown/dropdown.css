@@ -1,8 +1,8 @@
 .dropdown-container {
-  background-color: white;
+  background-color: rgb(162, 66, 66);
   color: black;
   height: 100vh;
-  width: 55vw;
+  width: 100vw;
   max-width: 350px;
   position: fixed;
   z-index: 3;
@@ -11,6 +11,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
+  transition: all .2 ease;
 }
 .dropdown-container img {
   width: 100px;

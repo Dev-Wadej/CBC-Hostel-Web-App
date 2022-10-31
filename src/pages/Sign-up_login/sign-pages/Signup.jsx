@@ -2,8 +2,8 @@ import React from 'react';
 import { useState, useContext } from 'react';
 import Signup2 from './signup2';
 import Signup3 from './signup3';
-import firstSignupImg from '../../../Assets/sign-up-images/1st signup page img.jpg';
-import cbcLogo from '../../../Assets/cbc logo png 1.png';
+import firstSignupImg from '../../../Assets/sign-up-images/first_signup_img.svg';
+import cbcLogo from '../../../Assets/cbc_logo.svg';
 import googleImg from '../../../Assets/google.png';
 import vectorImg from '../../../Assets/Vector 18.png';
 import ReviewContainer from '../../../component/ReviewContainer/ReviewContainer';
@@ -126,6 +126,9 @@ const Signup = ({ onLogin, onReset }) => {
               </option>
               <option value="BAV Hostels">
                  BAV Hostels
+              </option>
+              <option value="Donum Hostels">
+                 Donum Hostels
               </option>
             </select>
           </div>

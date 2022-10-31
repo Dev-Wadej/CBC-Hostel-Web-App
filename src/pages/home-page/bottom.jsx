@@ -1,5 +1,5 @@
 import React from "react";
-import cbcLogo from "../../Assets/cbc logo png 1.png";
+import cbcLogo from "../../Assets/cbc_logo.svg";
 import './css/home.css';
 
 const Bottom = () => {

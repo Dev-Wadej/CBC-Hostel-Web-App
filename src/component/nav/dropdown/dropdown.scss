@@ -1,9 +1,10 @@
+
 .dropdown-container {
     background-color: white;
     color: black;
     height: 100vh;
-    width: 55vw;
-    max-width: 350px;
+    width: 60vw;
+    //max-width: 350px;
     position: fixed;
     z-index: 3;
     left: 0;
@@ -20,7 +21,6 @@
         flex-direction: column;
         align-items: flex-start;
         margin-top: 30px;
-
         li {
             margin: 35px 0 0;
 

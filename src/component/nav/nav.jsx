@@ -1,14 +1,9 @@
 import { useState } from 'react';
-import cbcLogo from '../../Assets/cbc logo png 1.png';
+import cbcLogo from '../../Assets/cbc_logo.svg';
 // import menuIcon from '../../Assets/menu-icon.svg';
 import {ReactComponent as MenuIcon} from '../../Assets/homepage/menu-icon.svg';
-
 import { Link } from 'react-router-dom';
-
 import { useLocation } from 'react-router-dom';
-
-
-
 import NavDropdown from './dropdown/nav-dropdown';
 
 import './nav.scss';
@@ -16,18 +11,25 @@ import './nav.scss';
 const Nav = () => {
 
   const [menuClicked, setMenuClicked] = useState(false);
+  const [navStyle, setNavStyle] = useState(false);
 
   let location = useLocation();
   const pageRoute = location.pathname;
 
-
   const handleMenuClick = () => {
     setMenuClicked(!menuClicked);
   }
-
+  const changeNavStyle = () => {
+    if(window.scrollY >= 200){
+      setNavStyle(true)
+    }else{
+      setNavStyle(false)
+    }
+  }
+  window.addEventListener('scroll', changeNavStyle)
 
   return (
-    <div className='nav-container'>
+    <div className={navStyle ? ' nav-container scrolled' : 'nav-container'}>
       {menuClicked && <NavDropdown />}
 
       <ul className={`header-nav ${pageRoute === '/hostels' ? 'dark-border-lines' : ''}`}>
@@ -68,7 +70,7 @@ const Nav = () => {
         </li>
       </ul>
 
-      <div className='phone-nav'>
+      <div className={navStyle ? ' phone-nav phone-scrolled' : 'phone-nav'}>
         <img src={cbcLogo} alt="logo" className="phone-header-img"/>
         <MenuIcon fill={`${menuClicked ? `#26F2D6` : `white`}`} className='menu-icon' onClick={handleMenuClick}/>
       </div>

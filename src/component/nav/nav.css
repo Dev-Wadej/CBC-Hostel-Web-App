@@ -12,14 +12,14 @@
   border-bottom: 2px solid rgb(149, 149, 149);
 }
 
-.header-nav li {
+/* .header-nav li {
   padding: 0 20px;
-}
+} */
 
 .header-nav .nav-links {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
   text-decoration: none;
   text-transform: uppercase;

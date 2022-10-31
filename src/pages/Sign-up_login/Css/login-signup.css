@@ -16,7 +16,7 @@ button:hover{
     transform: scale(1.05);
 }
 .main.container{
-    height: 80%;
+    height: 90%;
     width: 80%;
     display: flex;
     align-items: center;
@@ -42,6 +42,9 @@ button:hover{
   }
 .sign-up{
     animation: signup-slide 0.5s ease;
+}
+.sign-up.no-slide{
+    animation: none;
 }
 @keyframes signup-slide {
     0% {
@@ -168,8 +171,8 @@ button:hover{
     
 }
 .cbcLogo{
-    height: 6vh;
-    width: 9vw;
+    height: 8vh;
+    width: 11vw;
     margin-bottom: 1vh;
 }
 form{

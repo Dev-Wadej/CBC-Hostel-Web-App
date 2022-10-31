@@ -1,6 +1,6 @@
 import React from 'react';
 import secondSignupImg from '../../../Assets/sign-up-images/2nd signup page img.jpg';
-import cbcLogo from '../../../Assets/cbc logo png 1.png';
+import cbcLogo from '../../../Assets/cbc_logo.svg';
 import vectorImg from '../../../Assets/Vector 18.png';
 import ReviewContainer from '../../../component/ReviewContainer/ReviewContainer';
 import { useContext } from 'react';
@@ -64,7 +64,7 @@ const Signup2 = ({ onLogin }) => {
             <select
               name="maritalStatus"
               id="Marital-status"
-              value={formFields. maritalStatus}
+              value={formFields.maritalStatus}
               onChange={handleChange}
             >
               <option value="" disabled selected></option>
@@ -126,7 +126,7 @@ const Signup2 = ({ onLogin }) => {
           />
         </div>
       </div>
-      <div className="image-container sign-up">
+      <div className="image-container sign-up no-slide">
         <img src={secondSignupImg} alt="img of a bunk" />
         <ReviewContainer title={title} />
       </div>
